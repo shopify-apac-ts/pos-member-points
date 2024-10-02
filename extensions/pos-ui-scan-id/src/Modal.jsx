@@ -35,16 +35,15 @@ const Modal = () => {
     addCustomerToCart(data);
   }, [data]);
   
-  const scanStatus = 
-    `Status [${customerStatus}] | Customer [${cart.customer?.email}] on cart | Scanned data [${data || ''}]`;
-
   return (
     <Screen
       name="CameraScanner"
       title="会員IDをスキャンする"
     >
       <CameraScanner />
-      <Text>{`${scanStatus}`}</Text>
+      <Text variant="headingLarge"> Status: {customerStatus}</Text>
+      <Text variant="captionRegular">Customer: {cart?.customer?.email} ID: {cart?.customer?.id}</Text>
+      <Text variant="captionRegular">Scanned data: {data}</Text>
     </Screen>
   )
 }

@@ -3,7 +3,7 @@
 client_id = "b042c4de2b7a9dfb504b541bab37e8a3"
 name = "pos-member-points"
 handle = "pos-member-points"
-application_url = "https://gabriel-za-selection-better.trycloudflare.com"
+application_url = "https://insulation-cameroon-murphy-comparison.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_customers,write_products"
 
 [auth]
 redirect_urls = [
-  "https://gabriel-za-selection-better.trycloudflare.com/auth/callback",
-  "https://gabriel-za-selection-better.trycloudflare.com/auth/shopify/callback",
-  "https://gabriel-za-selection-better.trycloudflare.com/api/auth/callback"
+  "https://insulation-cameroon-murphy-comparison.trycloudflare.com/auth/callback",
+  "https://insulation-cameroon-murphy-comparison.trycloudflare.com/auth/shopify/callback",
+  "https://insulation-cameroon-murphy-comparison.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
